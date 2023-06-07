@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Documentation - Steam-Ship HTML Template - Marina-Star</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.min.css" integrity="sha512-PIAUVU8u1vAd0Sz1sS1bFE5F1YjGqm/scQJ+VIUJL9kNa8jtAWFUDMu5vynXPDprRRBqHrE8KKEsjA7z22J1FA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+	<link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png" />
+	<script>document.createElement('section'); var duration = '500', easing = 'easeInQuart';</script>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+
+	<script src="assets/js/jquery.js"></script>
+	<script src="assets/js/script.js" type="text/javascript"></script>
+	<script src="assets/js/jquery.scrollTo.js"></script>
+	<script src="assets/js/jquery.easing.js"></script>
+</head>
+
+<body>
+	<div id="documenter_sidebar">
+		<div class="logo">
+			<img src="assets/img/logo.png" alt="Icecream" />
+		</div>
+		<div id="documenter_nav">
+			<ul id="" class="menu">
+				<li class="layout"> <a href="#introduction">Introduction</a></li>
+				<li class="layout"> <a href="#requirements">Requirements</a></li>
+				<li class="layout"> <a href="#file_structure">File Structure</a></li>
+				<li class="layout"> <a href="#fonts">Change Fonts</a></li>
+				<li class="layout"> <a href="#color">Change Color</a></li>
+				<li class="layout"> <a href="#favicon">Change Favicon</a></li>
+				<li class="layout"> <a href="#logo">Change Logo</a></li>
+				<li class="layout"> <a href="#Icecream">Modify Marina-Star</a></li>
+				<li class="layout"> <a href="#credits">Credits</a></li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="documenter_content">
+		<section id="home">
+			<h1><span>Marina-Star</span> HTML Website Template</h1>
+		</section>
+		<div id="introduction">
+			<h2 id="introduction" class="steps">Introduction</h2>
+			<p>Thank you for purchasing marina-star template. This documentation will help to know more about template and
+				how is structured and how to use the template features. Marina-Star is a template for multi purpose sites
+				built on Bootstrap Framework.</p>
+		</div>
+
+		<div id="requirements" class="mt-80">
+			<h2 id="requirements" class="steps">Requirements</h2>
+			<p>To be able to use HTML template, you must have the following:</p>
+			<ul>
+				<li>Make sure you upload the required assets files/folders listed below:
+					<ul>
+						<li><code>assets/css</code> - Extra Stylesheets Folder</li>
+						<li><code>assets/fonts</code> - Fonts Folder</li>
+						<li><code>assets/images</code> - Images Folder</li>
+						<li><code>assets/js</code> - Javacripts Folder</li>
+						<li><code>style.css</code> - Main Stylesheet File</li>
+						<li><code>index.html</code> - Index File/Homepage</li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+
+		<div id="file_structure" class="mt-80">
+			<h2 id="file_structure" class="steps">File Structure</h2>
+			<p>Unzip the compressed archive to see the following structure:</p>
+			<pre class="prettyprint"> Marina-Star /
+  <span class="muted">├──</span> Documentation/
+  <span class="muted">├──</span> Package/
+  <span class="muted">    ├──</span> assets/
+  <span class="muted">        ├──</span> css
+  <span class="muted">        ├──</span> images
+  <span class="muted">        ├──</span> fonts	
+  <span class="muted">        ├──</span> js
+  <span class="muted">    ├──</span> about.html
+  <span class="muted">    ├──</span> ...
+  <span class="muted">    └──</span> where-can-i-get-some.html
+</pre>
+		</div>
+
+		<div id="fonts" class="mt-80">
+			<h2 id="fonts" class="steps">Change Fonts</h2>
+			<p>To change the font, Check <strong>head</strong> in<code>index.html</code> then in first go to <a href="http://www.google.com/webfonts" target="_blank">google fonts</a> choose a font and use the
+				generated code and replace with next code.</p>
+			<pre class="prettyprint">
+&lt;link href="https://fonts.googleapis.com/css2?&family=Poppins:wght@400;500;600;700&family=Kanit:wght@400&display=swap" rel="stylesheet"&gt;
+</pre>
+
+			<h4 class="guidline"><span class="underline">Next Step</span> : change font family for body in
+				<code>style.css</code>
+			</h4>
+			<pre class="prettyprint">
+body { 
+	font-family: 'Poppins', sans-serif;/*Change font*/
+}
+</pre>
+		</div>
+
+		<div id="color" class="mt-80">
+			<h2 id="color" class="steps">Change Color</h2>
+
+			<p>Yellow hats has a number of included colour schemes that you can switch to at any
+				time. To switch colour schemes, simply replace color code in
+				<code>style.css</code>
+				with what you need.
+			</p>
+			<pre class="prettyprint">
+&lt;!-- COLORS --&gt; 
+	--primary-color: #000000;
+	--primary-hover-color: #2b547a;
+	--secondary-color: #ffffff;
+	--secondary-light-color: #888888;
+	--background-color: #f7f7f7;
+	--border-color: #d9d9d9;
+	--gold: #fec60f;
+	--red-color: #f00;
+</pre>
+
+		</div>
+
+		<!-- Change Favicon -->
+		<div id="favicon" class="mt-80">
+			<h2 id="favicon" class="steps">Change Favicon</h2>
+			<p>The main favicon is located in <code>assets/images/favicon.png</code> replace with your own.</p>
+			<pre class="prettyprint">
+&lt;link rel="icon" type="image/x-icon" href="assets/images/favicon.png"&gt;
+</pre>
+		</div>
+
+		<!-- Change Logo -->
+		<div id="logo" class="mt-80">
+			<h2 id="logo" class="steps">Change Logo</h2>
+			<p>Just edit the <code>logo.png</code> from the folder <code>assets/images/</code> or open
+				<code>index.html</code> and you should see the tag there:
+			</p>
+			<pre class="prettyprint">
+&lt;img src="assets/images/logo.png" title="Your Store" alt="Your Store" class="img-fluid"&gt;
+</pre>
+		</div>
+
+		<!-- Change Logo -->
+
+		<div id="addsection">
+			<h2 id="Icecream" class="steps">Modify Marina-Star Template</h2>
+			<p><strong>Section 1 : </strong>Change <strong> Menu Items </strong> In <strong> All Pages </strong><br>
+				File Location: index.html  And All Pages </span></p>
+			<p>
+				<a href="assets/img/1.png" target="_blank">
+					<img alt="" src="assets/img/1.png">
+				</a>
+			</p>
+			<p><strong>Section 2 : </strong>Update Banner Slider <strong> Image </strong> In <strong>Home Banner Slider </strong>Section <br>
+				File Location: index.html </span></p>
+			<p>
+				<a href="assets/img/2.png" target="_blank">
+					<img alt="" src="assets/img/2.png">
+				</a>
+			</p>
+			<p><strong>Section 3 : </strong>Update Category <strong> Image </strong> And <strong> Name </strong> In <strong>Category </strong>Section <br>
+				File Location: index.html </span></p>
+			<p>
+			<p>
+				<a href="assets/img/3.png" target="_blank">
+					<img alt="" src="assets/img/3.png">
+				</a>
+			</p>
+			<p><strong>Section 4 : </strong>Update Discount Banner <strong> Image </strong> And <strong>Text</strong> In <strong>Discount Banner </strong>Section <br>
+				File Location: index.html
+			 </p>
+			<p>
+				<a href="assets/img/4.png" target="_blank">
+					<img alt="" src="assets/img/4.png">
+				</a>
+			</p>
+			<p><strong>Section 5 : </strong>Update Product <strong> Image </strong> , <strong> Name </strong> , <strong> Price </strong> And <strong>Rating</strong> In <strong>Top Product </strong>Section <br>
+				File Location: index.html, shop.html And category.html
+			</p>
+			<p>
+				<a href="assets/img/5.png" target="_blank">
+					<img alt="" src="assets/img/5.png">
+				</a>
+			</p>
+			<p><strong>Section 6 : </strong>Update Membership Cost <strong> Title </strong> , <strong> Price </strong> And <strong> Details </strong> In <strong>Membership Cost </strong>Section <br>
+				File Location: index.html </span></p>
+			<p>
+			<p>
+				<a href="assets/img/6.png" target="_blank">
+					<img alt="" src="assets/img/6.png">
+				</a>
+			</p>
+			<p><strong>Section 7 : </strong>Update Testimonial <strong> Image </strong> , <strong> Name </strong> And <strong> Text </strong> In <strong>Testimonial </strong>Section <br>
+				File Location: index.html </span></p>
+			<p>
+			<p>
+				<a href="assets/img/7.png" target="_blank">
+					<img alt="" src="assets/img/7.png">
+				</a>
+			</p>
+			<p><strong>Section 8 : </strong>Update Blog <strong> Image </strong>, <strong> Name </strong>, <strong> Date </strong> And <strong> Text </strong>In <strong>Blog </strong>Section <br>
+				File Location: index.html And blog.html </span></p>
+			<p>
+			<p>
+				<a href="assets/img/8.png" target="_blank">
+					<img alt="" src="assets/img/8.png">
+				</a>
+			</p>
+			<p><strong>Section 9 : </strong>Update Blog Details <strong> Image </strong> , <strong> Name </strong>, <strong> Date </strong>, <strong> Blog Details </strong> And <strong>Comment Details</strong> In <strong> For Your Enjoyment </strong> Page <br>
+				File Location: for-your-enjoyment.html, all-ages-all-levels.html, get-your-game-on.html, its-all-about-the-racquet.html And lets-hit-the-courts.html </span></p>
+			<p>
+			<p>
+				<a href="assets/img/9.png" target="_blank">
+					<img alt="" src="assets/img/9.png">
+				</a>
+			</p>
+			<p><strong>Section 10 : </strong>Update Players Details <strong> Image </strong> , <strong> Name </strong>, <strong> Achievement </strong> And <strong> Biography </strong> In <strong>Players Details page</strong> <br>
+				File Location: player-details.html</span></p>
+			<p>
+			<p>
+				<a href="assets/img/10.png" target="_blank">
+					<img alt="" src="assets/img/10.png">
+				</a>
+			</p>
+			<p><strong>Section 11 : </strong>Update Players Details <strong> Image </strong> In <strong>Players Details page</strong> <br>
+				File Location: player-details.html</span></p>
+			<p>
+			<p>
+				<a href="assets/img/11.png" target="_blank">
+					<img alt="" src="assets/img/11.png">
+				</a>
+			</p>
+			<p><strong>Section 12 : </strong>Update Contact Us <strong> Input Type </strong>, <strong> Placeholder </strong> And <strong> Add New Input Field / Remove Input Field </strong> In <strong>Contact Us page</strong> <br>
+				File Location: contact.html</span></p>
+			<p>
+			<p>
+				<a href="assets/img/12.png" target="_blank">
+					<img alt="" src="assets/img/12.png">
+				</a>
+			</p>
+			<p><strong>Section 13 : </strong>Update Contact Us <strong> Icon </strong> And <strong> Details </strong> In <strong>Contact Us page</strong> <br>
+				File Location: contact.html</span></p>
+			<p>
+			<p>
+				<a href="assets/img/13.png" target="_blank">
+					<img alt="" src="assets/img/13.png">
+				</a>
+			</p>
+		</div>
+
+		<div id="credits" class="mt-80">
+			<h2 id="logo" class="steps">Credits</h2>
+			<p>I've used the following images, icons, JavaScript or other files as listed.</p>
+			<ul>
+				<li><a>jQuery(v3.6.4)</a></li>
+				<li><a>Popper(v2.11.7)</a></li>
+				<li><a>Bootstrap(v5.3.0)</a></li>
+				<li><a>Font-Awesome(v6.2.1)</a></li>
+				<li><a>Owl-Carousel(v2.3.4)</a></li>
+				<li><a>Animation(3.7.2)</a></li>
+			</ul>
+		</div>
+
+	</div>
+	<a href="#" class="scrollToTop"><i class=" fa fa-angle-double-up"></i></a>
+</body>
+
+</html>
